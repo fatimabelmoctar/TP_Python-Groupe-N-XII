@@ -222,10 +222,56 @@ while mp!=4:
     mp=input()
 
     
+# -*- coding: utf-8 -*-
+#BADAWE FILS AIME
+#MATRICULE:18A176FS
+class Comptebancaire:
+   def init (self,SoldeInitial):
+        self.Solde=float(SoldeInitial)
+   def NouveauSolde(self, Somme):
+        self.Solde=float( Somme)
+   def Solde(self):
+        return self.Solde
+   def Credit(self, Somme):
+        self.Solde += Somme
+        return self.Solde
+   def Debit(self, Somme):
+        self.Solde -= Somme
+        return self.Solde
+   def add (self, Somme):
+        self.Solde += Somme
+        print("NouveauSolde:{:+.2f}.format(self.Solde)")
+        return self
+   def sub (self, Somme):
+        self.Solde -= Somme
+        print("NouveauSolde:{:+.2f}.format(self.Solde)")
+        return self
+def cb1(self):
+        cb1.Compte(1000)
+def name(self):
+        return self.name
+if (name ==" main "):
+     print("{:+.fn}".format(cb1.Solde()))
+     print("{:+.fn}".format(cb1.Credit(300)))
+     print("{:+fn}".format(cb1.Debit(50.30)))
+     print("{:+.fn}".format(cb1.Solde()))
+     cb1.NouveauSolde(5200)
+     print("{:+.fn}".format(cb1.Solde()))
+     cb1+200
+     cb1-1000+100
+     cb1-cb1.Solde()
+cm=' '
+num=0
 
+while cm !=5:
+    print("\tMAIN MENU")
+    print("\t1.SOLDE EST:***********")
+    print("\t2.CREDIT EST:**********")
+    print("\t3.DEBIT EST:***********")
+    print("\t4.NOUVEAU SOLDE:*********")
+    print("\t5. EXIT")
+    print("\tSelect Your Option (1-5) ")
+    cm = input()
+    
          
-       
-
-         
-       
-
+  
