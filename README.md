@@ -273,5 +273,45 @@ while cm !=5:
     print("\tSelect Your Option (1-5) ")
     cm = input()
     
-         
+ 
+ # -*- coding: utf-8 -*-
+#ABEL ARAHANG
+#MATRICULE:18A861FS
+class CompteEpargne:
+    def comptebancaire(self,comptebancaire):
+        self.nom= ''
+        self.solde=100
+        self.comptebancaire=self.nom,self.solde
+        self.taux=0.0
+    def changerTaux(self,taux):
+        self.taux= taux
+    def capitalisation(self,nbredemois,n,name,compteEpargne):
+        self.nbredemois=n
+        print("Capitalisation au mois mensuel de pourcentage".format(self.nbredemois,self.taux))
+        for m in range (nbredemois):
+            self.solde=self.solde*(100+self.taux)/100
+            if name ==' main ':
+                c1=compteEpargne('',600)
+                c1.depot(350)
+                c1.afficher()
+                c1.capitalisation(12)
+                c1.changerTaux(0.5)
+                c1.capitalisation()
+mp=''
+num=0
+
+while mp != 7: 
+    print("\tMAIN MENU")
+    print("\t1.compteEpargne*****")
+    print("\t2.DEPOT*****")
+    print("\t3.AFFICHER*****")
+    print("\t4.CAPITALISATION*****")
+    print("\t5.CHANGERTAUX*****")
+    print("\t6.CAPITALISATION*****")
+    print("\t7.EXIT-----")
+
+    mp = input()               
+        
+        
+    
   
