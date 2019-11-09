@@ -119,6 +119,67 @@ while mp!=2:
     
     mp=input()
          
-     
+  # -*- coding: utf-8 -*-
+#MOUDARIFOU MOHAMADOU
+#MATRICULE:18B248FS
+class Guichetier:
+    def init (self,Stringupdate,getconnection,conn,String,codeClient,numCompte,e,a,destination,texte):
+        def Connection (self,codeCli,num):
+          self.conn=0
+          self.codeClient=codeCli
+          self.numCompte=num
+          def  getNumCompte(self):
+              return self.numCompte
+          def ajoutArgent(self,montant):
+              Stringupdate
+              getconnection()
+              stmt = conn.createStatement()
+              update = String(" CALL depotCompte"+"("+montant +", "+codeClient +", "+numCompte +")")
+              print(update)
+              stmt.execute(update)
+              conn.close()
+              e.printStackTrace()
+              def  retraitargent(self,montant):
+                  Stringupdate
+                  getconnection()
+                  stmt = conn.createStatement()
+                  update = String("CALL retraitCompte"+"("+montant +", "+codeClient +", "+numCompte +")")
+                  print(update)
+                  stmt.execute(update)
+                  conn.close()
+                  e.printStackTrace()
+                  def init (self,nom,solde):
+                      self.nom=nom
+                      self.solde=solde
+                      def depot (self,a):
+                          som=(self.solde+self.a)
+                          return som
+                      def retrait (self,a):
+                          som=(self.solde-self.a)
+                          return som
+                      def virervers(self):
+                          self.a
+                          self.comptedestination
+                          retrait(a)
+                          destination.deposer(a)
+                          def afficher (self):
+                             self.solde=texte
+                             return texte
+                         
+                             print("L'opération à l'internationale!!!")
+                             
+nb=''
+lum=0
+
+while nb !=5:
+     print("\tMAIN MENU")
+     print("\t1.VERSEMENTS*****")
+     print("\t2.RETRAIT*****")
+     print("\t3.VIREMENTS*****")
+     print("\t4.OPERATION INTERNATIONALE*****")
+     print("\t5.EXIT*")
+     print("\tSelect Your Option (1-5) ")
+     nb = input()
+                           
             
         
