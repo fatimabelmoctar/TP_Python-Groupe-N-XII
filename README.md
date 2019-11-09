@@ -182,4 +182,50 @@ while nb !=5:
      nb = input()
                            
             
-        
+        # -*- coding: utf-8 -*-
+#BRAHIM ALI HASSAN
+#MATRICULE:17B291FS
+class Client:
+    def Numero(self,numero):
+        self.Numero=numero
+    def Nom(self,nom):
+        self.Nom=nom
+    def arrayListcompte(self):
+        return self.arrayListcompte
+    def Client(self,numero,nom,ArrayListcompte,nm,cmp,comptes):
+        self.numero= numero
+        self.nom= nom
+        self.comptes= ArrayListcompte
+        self.numero=nm
+        self.comptes.add(cmp)
+    def Comptes(self,comptes,numero,nom,rt,i):   
+        if (self,comptes.isEmpty()):
+            return"Client"+nom+"\t numero"+numero+"\n"+"pas de compte associÃ©"
+            rt=rt+comptes.get(i).toString()+"\n";
+            return"Client"+nom+"\t numero"+numero+"\n"+rt
+    def name(self,name,c1,client,compte):
+     if name ==' main ':
+         def comptes(self,c1,c2,compt1,compt2):
+             self.c1=client(1,"Gold")
+             self.c2=client(2,"Silver") 
+             self.compt1=compte(10,compt1)
+             self.compt2=compte(20,compt2)
+mp=''
+num=0
+while mp!=4:
+    print("\tMAIN MENU")
+    print("\t1.EMPRUNT DU CLIENT.....")
+    print("\t2.REMBOURSEMENT DU CLIENT.....")
+    print("\t3.LE CLIENT N'A AUCUNE DETTE.....")
+    print("\t4.EXIT/")
+    
+    mp=input()
+
+    
+
+         
+       
+
+         
+       
+
