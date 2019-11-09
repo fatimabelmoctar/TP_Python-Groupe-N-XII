@@ -77,7 +77,47 @@ while ph != 5:
     
     ph=input()
 
+    # -*- coding: utf-8 -*-
     
+#OUSMANOU YAOUBA
+#MATRICULE:18A052FS
+
+class Contrôleur:
+ def CtrlDepotCmpt (self,Fen,compte,Fenlist,Cli,com):
+     self.FenGestCmp=Fen
+     self.Compte=compte
+     self.FenListCmpt=Fenlist
+     self.Client=Cli
+     self.Fen = Fen
+     self.compte = com
+     self.Fenlist =Fenlist
+     self.Cli = Cli
+ def ActionPerformed(self,ActionEvent,e,true,Fen) :
+		self.test = true
+		self.c = Fen.getMontant().toCharArray()
+ def Used(self):
+     if(self,self.i,self.false):
+         self.i<0
+         self.i>9
+         self.i !=0
+         self.i != 0
+         self.i = 1
+         def CtrlDepotCmpt (self,Fen,compte,Fenlist,Cli,com,javax):
+             compte.ajoutArgent(Fen.getMontant())
+             Fen.dispose()
+             Fenlist.setListCompte(Cli.getlescomptesclient())
+             javax.swing.JOptionPane.showMessageDialog("Montant non valide")
+             
+             
+mp=''
+num=0
+
+while mp!=2:
+    print("\tMAIN MENU")
+    print("\t1.CONTROLER LES OPERATIONS JOURNALIERES*******")
+    print("\t2.EXIT*")
+    
+    mp=input()
          
      
             
