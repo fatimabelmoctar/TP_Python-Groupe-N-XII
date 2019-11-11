@@ -314,6 +314,20 @@ while mp != 7:
     print("\t7.EXIT-----")
 
     mp = input()               
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    LISTE DES LIENS VIDEOS
+    
+    1. https://youtu.be/_ZtMnzN04nw  (BADAWE FILS AIME 18A176FS).
+    2. https://youtu.be/7T7kNSbQmm4  (ABEL ARAHANG 18A861FS).
+    3. https://youtu.be/a6ibapGtuDs  (BRAHIM ALI HASSAN).
         
         
     
