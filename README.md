@@ -313,10 +313,44 @@ while mp != 7:
     print("\t6.CAPITALISATION*****")
     print("\t7.EXIT-----")
 
-    mp = input()               
+    mp = input()
     
     
     
+    
+    # -*- coding: utf-8 -*-
+
+#KOUMDE ALAIN
+#MATRICULE:
+
+class Operation:
+     def init (self,solde,soldeinitial,):
+        self.solde=soldeinitial
+     def set(self,SoldeInitial,somme,):
+            self.Solde=SoldeInitial
+            def virement(self):
+                self.solde+=somme
+            return("nouveau solde{:+2f}".format(self.solde))
+            def retrait(somme):
+                self.solde-=somme
+                return("somme retire){:2f}".format(self.solde))
+     def versement(self,somme):
+           self.solde+=somme
+           return("solde est){:2f}".format(self.solde))
+ 
+mp=''
+num=0
+while mp!=2:
+        print("\t.MAIN MENU***")
+        print("\t1.controle tout ce qui c est passe au banque****")
+        print("\t2.nouveau solde entrant*****")
+        print("\t3.nouveau solde sortant******")
+        print("\t4.versement*********")
+        print("\t5.total*******")      
+        print("\t6.exit-----")
+        
+        mp=input(...)
+
     
     
     
